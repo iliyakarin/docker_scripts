@@ -1,0 +1,1 @@
+id=$(docker create image-name); docker cp $id:path - > local-tar-file; docker rm -v $id
